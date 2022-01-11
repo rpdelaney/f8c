@@ -1,8 +1,11 @@
 [tool.poetry]
 name = "f8c"
 version = "0.1.0"
-description = ""
+description = "cli wrapper around flake8_codes"
 authors = ["Ryan Delaney <ryan.patrick.delaney@protonmail.com>"]
+readme = "README.rst"
+repository = "https://github.com/rpdelaney/f8c"
+homepage = "https://pypi.org/project/f8c"
 
 [tool.poetry.scripts]
 f8c = "f8c.cli:cli"
