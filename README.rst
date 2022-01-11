@@ -2,8 +2,8 @@ f8c
 ======================
 
 Provides a conventional cli entrypoint as a thin wrapper around
-`flake8_codes https://github.com/orsinium-labs/flake8-codes/tree/master/flake8_codes` so that
-I can install it with `pipx https://pypa.github.io/pipx/`. That's it.
+`flake8_codes <https://github.com/orsinium-labs/flake8-codes/tree/master/flake8_codes>`_ so that
+I can install it with `pipx <https://pypa.github.io/pipx/>`_. That's it.
 
 If you work in projects that use any flake8 plugins that provide new error
 codes, you will need to install f8c in the local venv to introspect them.
